@@ -3,7 +3,7 @@ A client app to upload simulation data to our VANET server for further data anal
 ## Table of Contents
 
 ## Adding the source code to VANET and VEINS
-**1.Add the api directory under ```veins/src/veins/``` so that it looks like:** <br/><br/>
+**1.Add the `api` directory under ```veins/src/veins/``` so that it looks like:** <br/><br/>
 <img src="./images/apiDirectoryTree.png" width=250 height=375/> <br/><br/>
 **2.Add this import line in the Eavesdropper.h file** <br/><br/>
 ``` #include "veins/api/VANETApiClient.h" ``` <br/><br/>
