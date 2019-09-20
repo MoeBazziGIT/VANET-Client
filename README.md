@@ -13,3 +13,6 @@ A client app to upload simulation data to our VANET server for further data anal
 **4.Add this intitialization of the client in the `initialize` function in the Eavesdropper.cc file** <br/><br/>
 `api = FindModule<VANETApiClient*>::findGlobalModule();` <br/><br/>
 <img src="./images/clientInitialization.png" width=600 height=375/> <br/><br/>
+**5.Add this function call line in the `handleLowerMsg` function in the Eavesdropper.cc file** <br/><br/>
+`api->dumpMsgForEavesdropper(myId, bsm, std::stod(simTime().str()));` <br/><br/>
+<img src="./images/apiDump.png" width=700 height=375/> <br/><br/>
