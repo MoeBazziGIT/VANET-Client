@@ -15,4 +15,4 @@ A client app to upload simulation data to our VANET server for further data anal
 <img src="./images/clientInitialization.png" width=600 height=375/> <br/><br/>
 **5.Add this function call line in the `handleLowerMsg` function in the Eavesdropper.cc file** <br/><br/>
 `api->dumpMsgForEavesdropper(myId, bsm, std::stod(simTime().str()));` <br/><br/>
-<img src="./images/apiDump.png" width=700 height=375/> <br/><br/>
+<img src="./images/apiDump.png" width=800 height=375/> <br/><br/>
