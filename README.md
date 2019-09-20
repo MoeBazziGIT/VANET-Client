@@ -5,8 +5,9 @@ A client app to upload simulation data to our VANET server for further data anal
 **[Client side source code](#Client-side-source-code)** <br>
 
 ## Dependencies to install
-** List of dependencies to install **
+**List of dependencies to install**
 
 ## Client side source code
-** First thing is to add the api directory under ```veins/src/veins/api```**
+**First thing is to add the api directory under ```veins/src/veins/``` so that it looks like:**
+(./images/apiDirectoryTree.png)
 
