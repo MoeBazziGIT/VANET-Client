@@ -12,4 +12,4 @@ A client app to upload simulation data to our VANET server for further data anal
 <img src="./images/eavesdropperhSourceCode.png" width=450 height=375/> <br/><br/>
 **4.Add this intitialization of the client in the `initialize` function in the Eavesdropper.cc file** <br/><br/>
 `api = FindModule<VANETApiClient*>::findGlobalModule();` <br/><br/>
-<img src="./images/clientInitialization.png" width=550 height=375/> <br/><br/>
+<img src="./images/clientInitialization.png" width=600 height=375/> <br/><br/>
