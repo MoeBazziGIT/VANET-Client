@@ -1,13 +1,8 @@
 # VANET-Client
 A client app to upload simulation data to our VANET server for further data analysis
 ## Table of Contents
-**[Dependencies to install](#Dependencies-to-install)** <br>
-**[Client side source code](#Client-side-source-code)** <br>
 
-## Dependencies to install
-**List of dependencies to install**
-
-## Client side source code
+## Adding the source code to VANET and VEINS
 **1.Add the api directory under ```veins/src/veins/``` so that it looks like:** <br/><br/>
 <img src="./images/apiDirectoryTree.png" width=250 height=375/> <br/><br/>
 **2.Add this import line in the Eavesdropper.h file** <br/><br/>
