@@ -16,3 +16,4 @@ A client app to upload simulation data to our VANET server for further data anal
 **5. Add this function call line in the `handleLowerMsg` function in the Eavesdropper.cc file** <br/><br/>
 `api->dumpMsgForEavesdropper(myId, bsm, std::stod(simTime().str()));` <br/><br/>
 <img src="./images/apiDump.png" width=800 height=375/> <br/><br/>
+**6. Now everytime a simulation is ran, all the data will be sent to the server ** <br/><br/>
