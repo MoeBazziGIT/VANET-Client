@@ -11,7 +11,7 @@
 using json = nlohmann::json;
 using namespace std;
 
-#define DEV_NAME "MOE BAZZI"
+#define DEV_NAME "" // ADD YOUR NAME HERE
 
 Define_Module(VANETApiClient);
 
