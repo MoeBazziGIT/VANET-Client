@@ -10,5 +10,5 @@ A client app to upload simulation data to our VANET server for further data anal
 ## Client side source code
 **First thing is to add the api directory under ```veins/src/veins/``` so that it looks like:**
 
-<img src="./images/apiDirectoryTree.png" width=300 height=400/>
+<img src="./images/apiDirectoryTree.png" width=250 height=375/>
 
