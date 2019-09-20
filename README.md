@@ -2,6 +2,9 @@
 A client app to upload simulation data to our VANET server for further data analysis
 ## Table of Contents
 
+**[Adding the source code to VANET and VEINS](#Adding-the-source-code-to-VANET-and-VEINS)** <br>
+**[Contributing](#Contributing)** <br>
+
 ## Adding the source code to VANET and VEINS
 **1. Add the `api` directory under ```veins/src/veins/``` so that it looks like:** <br/><br/>
 <img src="./images/apiDirectoryTree.png" width=250 height=375/> <br/><br/>
