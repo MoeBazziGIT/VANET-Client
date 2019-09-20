@@ -9,5 +9,6 @@ A client app to upload simulation data to our VANET server for further data anal
 
 ## Client side source code
 **First thing is to add the api directory under ```veins/src/veins/``` so that it looks like:**
-![Alt text](./images/apiDirectoryTree.png)
+
+<img src="./images/apiDirectoryTree.png" />
 
